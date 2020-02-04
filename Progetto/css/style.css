@@ -1,0 +1,113 @@
+*{
+    font-family: "arial", "sans-serif";
+    color: #303030;
+    font-size: 1em;
+}
+
+body {
+	height: 100%;
+    background: url(../img/background.jpg);
+}
+
+h1{
+    font-family: "arial", "sans-serif";
+    color: white;
+    font-size: 1em;
+}
+
+#banner, #banner1 {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	overflow: hidden;
+	position: relative;
+	background: #333;
+	margin-bottom: 20px;
+	margin-top: -10px;
+	margin-left: -10px;
+	margin-right: -10px;
+	border-style: dashed;
+        border-color: #303030;
+	border-width: 0px 0px 2px 0px;
+	text-align: center;
+}
+
+#banner h1{
+        color: white;
+	font-size: 2.2em;
+	display: inline-block;
+	overflow: hidden;
+}
+
+#banner img {
+	width: 100px;
+}
+
+
+
+#bannerBottom {
+	padding-top: 15px;
+	padding-top: 15px;
+	overflow: hidden;
+	width: 100%;
+	background: #333;
+	margin-top: 20px;
+	position:absolute;
+	margin-left: -10px;
+	margin-right: -10px;
+	border-style: dashed;
+    border-color: #303030;
+	border-width: 2px 0px 0px 0px;
+	text-align: center;
+    height: 40px;
+}
+
+
+#l {
+	padding-bottom: 20px;
+	font-size: 20pt;
+}
+
+#error {
+	color: red;
+	font-size: 10pt;
+}
+
+fieldset {
+	border: 2px solid #4F4F4F;
+	width: 350px;
+	padding: 20px 35px;
+	background: #EFEFEF;
+	border-radius: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+input[type=text], input[type=password] {
+	width: 260px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid #D3D3D3;
+    border-radius: 4px;
+}
+
+input:focus {
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+    border: 2px solid #303030;
+}
+
+input[type=button], input[type=submit] {
+    width: 120px;
+    background-color: Grey;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=button]:hover, input[type=submit]:hover {
+    background-color: black;
+}

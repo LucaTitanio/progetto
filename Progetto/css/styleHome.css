@@ -1,0 +1,175 @@
+#finestraPrincipale {
+	padding-bottom: 0px;
+}
+
+#finestraArtisti {
+	width: 570px;
+	float: left;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+
+.artista {
+	overflow: hidden;
+	margin: 10px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid black;
+}
+
+.artista .immagine {
+	width: 150px;
+	height: 150px;
+	float: left;
+	overflow: hidden;
+	clear: left;
+}
+
+.immagine img {
+	width:  100%;
+	height: 200px;
+}
+
+.artista h2 {
+	text-align: left;
+	color: black;
+	float: left;
+	overflow: hidden;
+	font-size: 16pt;
+}
+
+.artista .trama {
+	text-align: justify;
+	float: left;
+	overflow: hidden;
+	padding: 10px;
+	width: 380px;
+	white-space: pre-wrap;
+}
+
+.artista .scheda {
+	width: 190px;
+	height: 30px;
+    padding: 0px 0px;
+    margin: 8px 10px 0px 0px;
+	float: right;
+}
+
+.recensione2 {
+	float: right;
+	overflow: hidden;
+	margin: 15px 10px 10px 0px;
+	height: 32px;
+	width: 160px;
+}
+
+.recensione1 {
+	float: right;
+	overflow: hidden;
+	margin: 15px 0px 10px 10px;
+	height: 32px;
+	width: 160px;
+}
+
+.classificheArtisti {
+	border: 2px solid #285e16;
+	width: 300px;
+	clear: left;
+	border-radius: 15px;
+	margin: 13px;
+	min-height: 100px;
+}
+
+.classificheArtisti h2 {
+	background-color: Grey;
+	color: white;
+	padding: 10px;
+	margin: 0px;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.classificheArtisti ol {
+	list-style: none;
+	counter-reset: li;
+	text-align: left;
+	font-size: 20px;
+}
+
+.classificheArtisti li::before {
+	content: counter(li);
+	color: black;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
+
+.classificheArtisti li {
+	counter-increment: li;
+	font-size: 20px;
+	margin: 7px;
+	cursor: pointer;
+}
+
+.classificheArtisti li:hover {
+	color: Grey;
+}
+
+#barraCerca {
+	width: 460px;
+	background-color: Grey;
+	padding: 0px;
+	border-radius: 4px;
+	margin: 20px 55px 0px 55px;
+}
+
+#tipoGenere {
+	color: black;
+	float: left;
+	border: 2px solid Grey;
+	border-radius: 4px;
+	width: 200px;
+	margin: 2px;
+	padding: 5px;
+	background-color: white;
+}
+
+#cerca {
+	float: left;
+	border-radius: 0px;
+    width: 200px;
+    font-size: 16px;
+    background-color: white;
+    padding: 5px;
+    -webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+	margin: 3px 0px 3px 0px;
+}
+
+#bottoneCerca {
+	background-image: url('../img/cerca.png');
+    background-position: center;
+    background-repeat: no-repeat;
+	background-color: Grey;
+	margin: 0px;
+	width: 40px;
+	border-radius: 0px 4px 4px 0px;
+	padding: 0px;
+	height: 40px;
+}
+
+#cerca:focus {
+	-webkit-transition: 0.5s;
+    border: 2px solid Grey;
+}
+
+#bottoneCerca:hover {
+	background-color: black;
+}
+
+#classificheArtisti {
+	float: right;
+}
+
+#erroreRicerca{
+	margin: 30px;
+	margin-left: 60px;
+}

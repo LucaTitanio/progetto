@@ -1,0 +1,98 @@
+#finestraPrincipale {
+	padding-bottom: 20px;
+}
+
+#statisticheUtente {
+	border: 2px solid Grey;
+	color: white;
+	width: 270px;
+	float: right;
+	border-radius: 15px;
+	margin: 13px 13px 0px 0px;
+	min-height: 100px;
+}
+
+#statisticheUtente h2 {
+	background-color: Grey;
+	color: white;
+	padding: 10px;
+	margin: 0px;
+	font-size: 12pt;
+	border-radius: 10px 10px 0px 0px;
+	float:none;
+}
+
+#statisticheUtente dl {
+	padding: 0px 0px 0px 10px;
+}
+
+#statisticheUtente dt {
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+#artistiVisti, #tbl {
+	width: 570px;
+	min-height: 100px;
+	margin: 20px 20px 0px 20px;
+	border-bottom: 2px solid #A2A2A2;
+	float: left;
+}
+
+h2 {
+	color: black;
+	overflow: hidden;
+	font-size: 14pt;
+	float: left;
+}
+
+.colonna {
+	float: left;
+	width: 285px;
+}
+
+.colonne {
+	float: left;
+	margin-top: 0px;
+}
+
+input[type=button] {
+	float: right;
+	width: 200px;
+	height: 30px;
+	padding: 0px 0px;
+	margin: 10px 10px 10px 10px;
+}
+
+#tbl .mostraTutti, #artistiVisti .mostraTutti {
+	background: none;
+	color: #4F4F4F;
+	width: 120px;
+}
+
+#mostraTutti:hover {
+	color: #8F8F8F;
+}
+
+li {
+	margin: 7px;
+}
+
+ul, ol {
+	margin: 0px 0px 0px -15px;
+}
+
+/*libreria.php*/
+
+#trash, .droppable{
+	height: 100px;
+	width: 100px;
+	border: 2px solid #A2A2A2;
+}
+
+#cestino1 {
+	height: 100px;
+	width: 100px;
+	border: 2px solid #A2A2A2;	
+}
+

@@ -1,0 +1,210 @@
+#schedaArtista h2{
+	padding-left: 10px;
+	float: left;
+	overflow: hidden;
+	color: black;
+	font-size: 16pt;
+}
+
+#immagineScheda {
+	width: 200px;
+	height: 280px;
+	float: left;
+	margin: 0px 13px 13px 0px;
+	clear: left;
+}
+
+#immagineScheda img {
+	width: 200px;
+	height: 250px;	
+}
+
+#descrizioneScheda {
+	overflow: hidden;
+	padding: 10px;
+	width: 550px;
+	line-height: 1.5;
+	white-space: pre-wrap;
+	text-align: right;
+	font-style: italic;
+}
+
+#schedaArtista {
+	overflow: hidden;
+	width: 570px;
+	float: left;
+	margin: 10px 20px 20px 20px;
+	border-bottom: 2px solid Grey;
+}
+
+#infoArtista {
+	border: 2px solid Grey;
+	width: 270px;
+	float: right;
+	border-radius: 15px;
+	margin: 13px 13px 0px 0px;
+	text-align: left;
+	min-height: 100px;
+	background: whitesmoke;
+}
+
+#infoArtista h2 {
+	background-color: Grey;
+	color: white;
+	padding: 10px;
+	margin: 0px;
+	border-radius: 10px 10px 0px 0px;
+}
+
+#infoArtista dl {
+	padding: 0px 0px 0px 10px;
+}
+
+#infoArtista dt {
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+#buttonArtista {
+	margin: 13px 13px 0px 0px;
+	float: right;
+	width: 270px;
+	text-align: center;
+}
+
+#buttonArtista button {
+	font-size: 16px;
+    background-color: Grey;
+    padding: 14px 20px;
+	border-radius: 4px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+	height: 50px;
+	width: 250px;
+	padding-left: 50px;
+}
+
+#buttonArtista button:hover {
+	background: black;
+	
+}
+
+#buttonArtista #artistaDaVedere {
+	background-image: url('../img/davedere.png');
+	background-position: 10px 5px; 
+    background-repeat: no-repeat;
+	background-size: 40px 40px;
+	color: white;
+}
+
+#buttonArtista #artistaVisto {
+	background-image: url('../img/visto.png');
+	background-position: 10px 5px;
+    background-repeat: no-repeat;
+	background-size: 40px 40px;
+	color:white;
+}
+
+#registrazione {
+	height: 15px;
+}
+
+#buttonArtista p {
+	margin: 20px 5px 0px 5px;
+}
+
+#recensioneScheda {
+	margin: 5px 55px 5px 55px;
+	width: 160px;	
+}
+
+#recensioneScheda div {
+	height: 32px;
+	width: 32px;
+	float: left;
+	background-image: url('../img/star_2.png');
+	background-position: center; 
+    background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+#scorriPagina {
+	margin: 0px 0px 10px 20px;
+}
+
+#finestraCommenti {
+	margin: 0px 20px 80px 20px;
+	width: 550px;
+}
+
+#finestraCommenti h2 {
+	margin: 20px 20px 20px 10px;
+}
+
+#scriviCommento img, .commento img {
+	width: 50px;
+	height: 50px;
+	vertical-align: top;
+	margin: 0px 0px 0px 10px;
+}
+
+#scriviCommento {
+    border-bottom: 2px solid Grey;
+}
+
+#scriviCommento button { 
+	width: 80px;
+	height: 30px;
+	margin: 5px 0px 15px 350px;
+	border-radius: 4px;
+	border:none;
+	background-color: Grey;
+    color: white;
+}
+
+#scriviCommento button:hover {
+    background-color: black;
+}
+
+#scriviCommento textarea {
+	resize: none;
+	width: 450px;
+	border: 2px solid Grey;
+	padding: 10px;
+	border-radius: 4px;
+	margin-right: 10px;
+}
+
+.commento {
+	margin: 20px 0px 20px 0px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid Grey;
+	overflow: hidden;
+}
+
+.nomeUtente {
+	float: left;
+	margin: 0px 15px 0px 15px;
+	font-weight: bold;
+}
+
+.commento .dataCommento {
+	float: right;
+	clear: right;
+	margin-right: 15px;
+	margin: 0px 15px 0px 15px;
+	font-weight: bold;
+}
+
+.commento img{
+	float: left;
+}
+
+.commento .testoCommmento {
+	float: left;
+	width: 460px;
+	overflow: hidden;
+	margin: 0px 15px 0px 15px;
+	text-align: justify;
+}
