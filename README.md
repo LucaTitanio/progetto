@@ -5,3 +5,8 @@ Spero che sia un minimo valutabile nonostante alcune implementazioni non svolgon
 di granlunga meglio (si spera) per l'appello di giugno.
 
 cordiali saluti
+
+utente ciccio
+pw ciccio96
+
+per testarlo
